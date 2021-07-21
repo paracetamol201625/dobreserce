@@ -1,0 +1,447 @@
+div.vse2{
+width: 1500px;
+height: 1700px;
+
+}
+h2{
+  margin-top: ;
+  margin-left: 530px;
+  width: 533px;
+  height: 77px;
+  color: #363b5d;
+  font-family: "Geometria-ExtraBold";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+}
+.container{
+  margin-left: 85px;
+   width: 1340px;
+  height: 1602px;
+   background: #ffffff;
+  box-shadow: 3px 4px 10px rgba(0,0,0,0.2);
+}
+}
+div.menu3{
+  position: absolute;
+  margin-left: 650px;
+  margin-top: -70px;
+  padding-bottom: 450px;
+
+ }  
+ nav {
+  border: solid 3px #363b5d;
+
+  margin-left: 650px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 225px;
+  height: 50px;
+  background: transparent;
+  border-radius: 8px;
+  font-size: 0;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;  
+  border-radius: 8px;
+}
+
+a.cet{
+  padding-right: 15px;
+}
+a:nth-child(1) {
+  width: 100px;
+
+}
+a:nth-child(2) {
+  width: 110px;
+  color: white;
+}
+nav .start-about, a:nth-child(1):hover~.animation {
+  margin-top: -1px;
+  width: 120px;
+  left: 0;
+  background: #363b5d;
+  color:  white;;
+  height: 52px;
+
+}
+nav .start-home, a:nth-child(2):hover~.animation {
+  margin-top: -1px;
+  background: #363b5d;
+  width: 130px;
+  color: white;
+  left: 100px;
+  height: 52px; 
+  color: #363b5d;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+ }
+  
+.bank{
+  padding-top: 25px;
+  
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background: #c5d5e6;
+}
+
+label {
+  padding: 3px 5px 12px 24px;
+
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.col-25 {
+  margin-left: 25px;
+  float: left;
+  margin-right: 15px ;
+  width: 200px;
+  height: 57px;
+  color: #939aa3;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+}
+
+.col-75 {
+  margin-left: -200px ;
+  padding-right: 35px;
+  margin-top: 25px;
+  float: left;
+  opacity: 0.2;
+  width: 200px;
+  height: 40px;
+  background: #tr;
+}
+
+.cod-27{
+  height: 97px;
+  width: 200px;
+  margin-left: 38px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+.col-26 {
+  margin-top: 20px;
+  margin-bottom: -37px;
+  margin-left: -16px;
+  float: left;
+  margin-right: 15px ;
+  width: 200px;
+  height: 57px;
+  color: #939aa3;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.col-76 {
+  float: left;
+  opacity: 0.2;
+  width: 420px;
+  height: 40px;
+  background: #tr;
+}
+.col-28 {
+  margin-top: -25px;
+  margin-left: 25px;
+  float: left;
+  margin-right: 15px ;
+  width: 200px;
+  height: 57px;
+  color: #939aa3;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+}
+.col-78 {
+  margin-left: -200px ;
+  padding-right: 35px;
+  margin-top: 5px;
+  float: left;
+  opacity: 0.2;
+  width: 200px;
+  height: 40px;
+  background: #tr;
+}
+
+
+.cod-278{
+  position: absolute;
+  height: 97px;
+  width: 200px;
+  margin-left: 550px;
+  margin-top: 5px;
+  padding-top: 10px
+}
+.col-26 {
+  margin-top: 20px;
+  margin-bottom: -37px;
+  margin-left: -16px;
+  float: left;
+  margin-right: 15px ;
+  width: 200px;
+  height: 57px;
+  color: #939aa3;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.col-76 {
+  float: left;
+  opacity: 0.2;
+  width: 420px;
+  height: 40px;
+  background: #tr;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.rightsite{
+  position: absolute;
+  margin-top: -1602px;
+  margin-left: 800px;
+}
+.podatkova{
+  position: absolute;
+  margin-top: -1220px;
+  margin-left: 800px;
+}
+.podatkova2{
+  position: absolute;
+  margin-top: -1135px;
+  margin-left: 800px;
+}
+.podatkova3{
+  position: absolute;
+  margin-top: -1054px;
+  margin-left: 800px;
+}
+.cod-279{
+ height: 97px;
+  width: 200px;
+  margin-left: 38px;
+  margin-top: -15px;
+  padding-top: 0px;
+}
+.col-29 {
+  margin-top: 15px;
+  padding-bottom: 4px ;
+  margin-bottom: -37px;
+  margin-left: -16px;
+  float: left;
+  margin-right: 15px ;
+  width: 200px;
+  height: 57px;
+  color: #939aa3;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.col-79 {
+  float: left;
+  opacity: 0.2;
+  width: 420px;
+  height: 40px;
+  background: #tr;
+}
+.cod-300{
+  height: 97px;
+  width: 200px;
+  margin-left: 38px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+.col-30 {
+  margin-top: 3px;
+ margin-left: 25px;
+  float: left;
+  margin-right: 15px ;
+  width: 200px;
+  height: 57px;
+  color: #939aa3;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+}
+
+.col-80 {
+  margin-left: -200px ;
+  padding-right: 35px;
+  margin-top: 22px;
+  float: left;
+  opacity: 0.2;
+  width: 200px;
+  height: 40px;
+  background: #tr;
+}
+.col-32{
+margin-top: 30px;
+padding-bottom: 25px;
+ margin-left: 25px;
+  float: left;
+  margin-right: 15px ;
+  width: 200px;
+  height: 57px;
+  color: #939aa3;
+  font-family: "Geometria-Medium";
+  font-size: 14px;
+}
+
+.col-82{
+  margin-top: px;
+  margin-left: -200px ;
+  padding-right: 35px;
+  margin-top: 50px;
+  float: left;
+  opacity: 0.2;
+  width: 200px;
+  height: 40px;
+  background: #tr;
+}
+.vududopomogu{
+  margin-left: 50px;
+  margin-top: -950px;
+  width: 1300px;
+  height: 80px;
+}
+.men2{
+  margin-left: -85px;
+}
+p.zag1{
+  margin-left: 450px;
+  width: 483px;
+  height: 77px;
+  color: #363b5d;
+  font-family: "Geometria-ExtraBold";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+}
+p.zag2{
+  margin-left: 570px;
+  margin-top: -50px;
+  width: 299px;
+  height: 22px;
+  color: #363b5d;
+  font-family: "Gilroy-Light";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+ul.hr {
+    margin-left: 280px; 
+    padding-right: 250px;
+   }
+   ul.hr li {
+    display: inline;
+    margin-right: px; 
+    padding-right: 40px;
+  height: 66px;
+  color: #363b5d;
+  font-family: "Geometria-ExtraBold";
+   }
+li img{
+  padding-right: 80px;
+}
+.menu{
+  position: absolute;
+  display: inline;
+}
+.pidnatu{
+
+  margin-top: -55px;
+}
+p.tx{
+  position: absolute;
+  margin-left: 325px;
+    margin-top: -65px;
+    width: 113px;
+  height: 44px;
+  color: #c5d5e6;
+  font-family: "Geometria-ExtraBold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+p.tx2{
+  position: absolute;
+  margin-left: 523px;
+  margin-top: -80px;
+  width: 91px;
+  height: 44px;
+  color: #363b5d;
+  font-family: "Geometria-ExtraBold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+p.tx3{
+   position: absolute;
+  margin-left: 735px;
+    margin-top: -70px;
+    width: 113px;
+  height: 44px;
+  color: #c5d5e6;
+  font-family: "Geometria-ExtraBold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+p.tx4{
+   position: absolute;
+  margin-left: 935px;
+    margin-top: -65px;
+    width: 113px;
+  height: 44px;
+  color: #c5d5e6;
+  font-family: "Geometria-ExtraBold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.ph{
+  position: absolute  ;
+  margin-left: 145px;
+}
